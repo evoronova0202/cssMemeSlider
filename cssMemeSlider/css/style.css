@@ -1,29 +1,29 @@
 *{
     margin: 0;
     padding: 0;
-  }
+}
   
-  .slider-container{
+.slider-container{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .slider{
+.slider{
     background-color: #25282a;
     height: 30rem;
     width: 45rem;
     max-width: 100%;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .meme-radios{
+.meme-radios{
     display: none;
-  }
+}
   
-  .meme-container{
+.meme-container{
     display: flex;
     width: 35rem;
     max-width: 95%;
@@ -32,66 +32,87 @@
     align-self: center;
     margin-top: 1.6rem;
     gap: 1rem;
-  }
+}
   
-  .meme{
+.meme{
     max-width: 100%;
     transition: transform 0.7s;
-  }
+}
   
-  .labels-and-text{
+.labels-and-text{
     display: flex;
     justify-content: space-between;
     width: 34rem;
     padding-left: 5rem;
-  }
+}
   
-  .texts{
+.texts{
     width: 10rem;
     overflow: hidden;
   }
   
-  .text{
+.text{
     color: #FFF;
     transition: transform 0.7s;
     font-size: 1rem;
     padding-top: 0.9rem;
-  }
+}
   
-  .controls{
+.controls{
     display: flex;
     gap: 0.5rem;
     height: 3rem;
     align-items: center;
     cursor: pointer;
-  }
+}
   
-  .control-wrapper{
+.control-wrapper{
     height: 5rem;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .control{
+.control{
     border: 0.0625rem solid #71abff;
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 1rem;
     background-color: #71abff;
-  }
+}
   
-  .control:hover{
+.control:hover{
     cursor: pointer;
     background-color: yellow;
     border-color: yellow;
-  }
+}
   
-  .control:active{
+.control:active{
     background-color: orange;
     border-color: orange;
-  }
+}
+
+
+
+  
+
+@media (max-width: 768px){
+.slider{
+    height: 35rem;
+}
+.labels-and-text{
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    padding-left: 0;
+    width: 45rem;
+    max-width: 100%;
+}
+
+.controls{
+    align-self: center;
+}
+}
   
   
