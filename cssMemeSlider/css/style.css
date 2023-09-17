@@ -76,11 +76,11 @@
 }
   
 .control{
-    border: 0.0625rem solid #71abff;
+    border: 0.0625rem solid #8d71ff;
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 1rem;
-    background-color: #71abff;
+    background-color: #8d71ff;
 }
   
 .control:hover{
@@ -95,44 +95,58 @@
 }
 
 
-/* Mems */
+/* Mems movement*/
 #rad1:checked ~ .meme-container > .meme{
     transform: translateX(-1rem);
-  }
+}
   
-  #rad2:checked ~ .meme-container > .meme{
+#rad2:checked ~ .meme-container > .meme{
     transform: translateX(-103%);
-  }
+}
   
-  #rad3:checked ~ .meme-container > .meme{
+#rad3:checked ~ .meme-container > .meme{
     transform: translateX(-207%);
-  }
+}
   
-  #rad4:checked ~ .meme-container > .meme{
+#rad4:checked ~ .meme-container > .meme{
     transform: translateX(-310.8%);
-  }
+}
 
 
-  #rad1:checked ~ .labels-and-text > .texts > .text{
+#rad1:checked ~ .labels-and-text > .texts > .text{
     transform: translateX(0%);
-  }
+}
   
-  #rad2:checked ~ .labels-and-text > .texts > .text{
+#rad2:checked ~ .labels-and-text > .texts > .text{
     transform: translateX(-160%);
-  }
+}
   
-  #rad3:checked ~ .labels-and-text > .texts > .text{
+#rad3:checked ~ .labels-and-text > .texts > .text{
     transform: translateX(-245%);
-  }
+}
   
-  #rad4:checked ~ .labels-and-text > .texts > .text{
+#rad4:checked ~ .labels-and-text > .texts > .text{
     transform: translateX(-330%);
-  }
+}
 
+/* Paint if marked*/
+
+#rad1:checked ~ .labels-and-text > .controls > #control1 > .control{
+    background-color: #eaf1f6;
+}
   
-
-
+#rad2:checked ~ .labels-and-text > .controls > #control2 > .control{
+    background-color: #eaf1f6;;
+}
   
+#rad3:checked ~ .labels-and-text > .controls > #control3 > .control{
+    background-color: #eaf1f6;;
+}
+  
+#rad4:checked ~ .labels-and-text > .controls > #control4 > .control{
+    background-color: #eaf1f6;;
+}
+
 
 @media (max-width: 768px){
 .slider{
