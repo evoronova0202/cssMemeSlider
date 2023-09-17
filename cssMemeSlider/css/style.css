@@ -85,15 +85,32 @@
   
 .control:hover{
     cursor: pointer;
-    background-color: yellow;
-    border-color: yellow;
+    background-color: white;
+    border-color: white;
 }
   
 .control:active{
-    background-color: orange;
-    border-color: orange;
+    background-color:green;
+    border-color: green;
 }
 
+
+/* Mems */
+#rad1:checked ~ .meme-container > .meme{
+    transform: translateX(-1rem);
+  }
+  
+  #rad2:checked ~ .meme-container > .meme{
+    transform: translateX(-103%);
+  }
+  
+  #rad3:checked ~ .meme-container > .meme{
+    transform: translateX(-207%);
+  }
+  
+  #rad4:checked ~ .meme-container > .meme{
+    transform: translateX(-310.8%);
+  }
 
 
   
