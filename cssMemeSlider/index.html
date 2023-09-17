@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Slider</title>
+  <link rel="stylesheet" href="./css/style.css">
+  </head>
 <body>
-    
+  <div class="slider-container">
+    <div class="slider">
+      <input class="meme-radios" type="radio" name="slider-input" id="rad1" checked>
+      <input class="meme-radios" type="radio" name="slider-input" id="rad2">
+      <input class="meme-radios" type="radio" name="slider-input" id="rad3">
+      <input class="meme-radios" type="radio" name="slider-input" id="rad4">
+      <div class="meme-container">
+        <img class="meme" src="./assets/img/memes/mem1.png" alt="meme">
+        <img class="meme" src="./assets/img/memes/mem2.png" alt="meme">
+        <img class="meme" src="./assets/img/memes/mem3.gif" alt="meme">
+        <img class="meme" src="./assets/img/memes/mem4.jpeg" alt="meme">
+      </div>
+      <div class="labels-and-text">
+        <div class="texts">
+          <pre class="text">How could it be?              Why?              CSS is hard.     Infinite Loop</pre>
+        </div>
+        
+        <div class="controls">
+          <label class="control-wrapper" for="rad1" id="control1">
+            <div class="control"></div>
+          </label>
+          <label class="control-wrapper" for="rad2" id="control2">
+            <div class="control"> </div>
+          </label>
+          <label class="control-wrapper" for="rad3" id="control3">
+            <div class="control"> </div>
+          </label>
+          <label class="control-wrapper" for="rad4" id="control4">
+            <div class="control"> </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
