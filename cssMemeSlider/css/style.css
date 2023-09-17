@@ -113,6 +113,25 @@
   }
 
 
+  #rad1:checked ~ .labels-and-text > .texts > .text{
+    transform: translateX(0%);
+  }
+  
+  #rad2:checked ~ .labels-and-text > .texts > .text{
+    transform: translateX(-160%);
+  }
+  
+  #rad3:checked ~ .labels-and-text > .texts > .text{
+    transform: translateX(-245%);
+  }
+  
+  #rad4:checked ~ .labels-and-text > .texts > .text{
+    transform: translateX(-330%);
+  }
+
+  
+
+
   
 
 @media (max-width: 768px){
