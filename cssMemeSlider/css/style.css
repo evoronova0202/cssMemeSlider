@@ -77,10 +77,10 @@
   
 .control{
     width: 0.8rem;
-    border: 0.0625rem solid #8d71ff;
+    border: 0.0625rem solid #4011fb;
     height: 0.8rem;
     border-radius: 1rem;
-    background-color: #8d71ff;
+    background-color: #643efd;
 }
   
 .control:hover{
