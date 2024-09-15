@@ -11,9 +11,9 @@
 }
   
 .slider{
-    background-color: #25282a;
-    height: 30rem;
     width: 45rem;
+    height: 30rem;
+    background-color: #25282a;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,8 +24,8 @@
 }
   
 .meme-container{
-    display: flex;
     width: 35rem;
+    display: flex;
     max-width: 95%;
     height: 26rem;
     overflow-x: hidden;
@@ -40,9 +40,9 @@
 }
   
 .labels-and-text{
+    width: 34rem;
     display: flex;
     justify-content: space-between;
-    width: 34rem;
     padding-left: 5rem;
 }
   
@@ -76,8 +76,8 @@
 }
   
 .control{
-    border: 0.0625rem solid #8d71ff;
     width: 0.8rem;
+    border: 0.0625rem solid #8d71ff;
     height: 0.8rem;
     border-radius: 1rem;
     background-color: #8d71ff;
@@ -153,10 +153,10 @@
     height: 35rem;
 }
 .labels-and-text{
+    width: 45rem;
     flex-direction: column-reverse;
     margin-top: 2rem;
     padding-left: 0;
-    width: 45rem;
     max-width: 100%;
 }
 
