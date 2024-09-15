@@ -90,8 +90,8 @@
 }
   
 .control:active{
-    background-color:green;
-    border-color: green;
+    background-color:rgb(11, 99, 11);
+    border-color: rgb(11, 99, 11);
 }
 
 
