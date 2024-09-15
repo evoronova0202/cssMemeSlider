@@ -86,7 +86,7 @@
 .control:hover{
     cursor: pointer;
     background-color: rgba(239, 230, 230, 0.954);
-    border-color: white;
+    border-color: rgba(239, 230, 230, 0.954);
 }
   
 .control:active{
